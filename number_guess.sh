@@ -33,6 +33,7 @@ GUESS_NUMBER () {
   done
 
   #number guessed
+  NUMBER_OF_GUESSES=$(($NUMBER_OF_GUESSES+1))
   echo "You guessed it in $NUMBER_OF_GUESSES tries. The secret number was $NUMBER. Nice job!"
 
 }
