@@ -105,6 +105,7 @@ INSERT INTO public.players VALUES (42, 'user_1727958394167', 2, 141);
 INSERT INTO public.players VALUES (32, 'user_1727958117846', 2, 58);
 INSERT INTO public.players VALUES (41, 'user_1727958394168', 5, 99);
 INSERT INTO public.players VALUES (31, 'user_1727958117847', 5, 76);
+INSERT INTO public.players VALUES (90, 'user_1727961722587', 2, 100);
 INSERT INTO public.players VALUES (58, 'user_1727959200400', 2, 170);
 INSERT INTO public.players VALUES (34, 'user_1727958173285', 2, 152);
 INSERT INTO public.players VALUES (44, 'user_1727958572430', 2, 193);
@@ -112,13 +113,13 @@ INSERT INTO public.players VALUES (73, 'user_1727959753897', 5, 358);
 INSERT INTO public.players VALUES (33, 'user_1727958173286', 5, 72);
 INSERT INTO public.players VALUES (43, 'user_1727958572431', 5, 10);
 INSERT INTO public.players VALUES (57, 'user_1727959200401', 5, 28);
-INSERT INTO public.players VALUES (24, 'David', 2, 7);
 INSERT INTO public.players VALUES (36, 'user_1727958197594', 2, 403);
 INSERT INTO public.players VALUES (35, 'user_1727958197595', 5, 22);
 INSERT INTO public.players VALUES (46, 'user_1727958936633', 2, 222);
 INSERT INTO public.players VALUES (38, 'user_1727958267327', 2, 47);
 INSERT INTO public.players VALUES (60, 'user_1727959207037', 2, 464);
 INSERT INTO public.players VALUES (37, 'user_1727958267328', 5, 260);
+INSERT INTO public.players VALUES (89, 'user_1727961722588', 5, 261);
 INSERT INTO public.players VALUES (45, 'user_1727958936634', 5, 37);
 INSERT INTO public.players VALUES (59, 'user_1727959207038', 5, 136);
 INSERT INTO public.players VALUES (48, 'user_1727959009600', 2, 121);
@@ -130,6 +131,7 @@ INSERT INTO public.players VALUES (75, 'user_1727959794814', 5, 13);
 INSERT INTO public.players VALUES (49, 'user_1727959107782', 5, 281);
 INSERT INTO public.players VALUES (61, 'user_1727959388589', 5, 89);
 INSERT INTO public.players VALUES (52, 'user_1727959121836', 2, 94);
+INSERT INTO public.players VALUES (92, 'user_1727961785729', 2, 128);
 INSERT INTO public.players VALUES (64, 'user_1727959390799', 2, 442);
 INSERT INTO public.players VALUES (51, 'user_1727959121837', 5, 84);
 INSERT INTO public.players VALUES (78, 'user_1727959850880', 2, 758);
@@ -139,21 +141,31 @@ INSERT INTO public.players VALUES (53, 'user_1727959128708', 5, 297);
 INSERT INTO public.players VALUES (66, 'user_1727959405159', 2, 499);
 INSERT INTO public.players VALUES (77, 'user_1727959850881', 5, 138);
 INSERT INTO public.players VALUES (65, 'user_1727959405160', 5, 0);
+INSERT INTO public.players VALUES (91, 'user_1727961785730', 5, 354);
 INSERT INTO public.players VALUES (68, 'user_1727959428338', 2, 13);
 INSERT INTO public.players VALUES (80, 'user_1727959929078', 2, 324);
 INSERT INTO public.players VALUES (67, 'user_1727959428339', 5, 141);
 INSERT INTO public.players VALUES (79, 'user_1727959929079', 5, 13);
 INSERT INTO public.players VALUES (70, 'user_1727959573911', 2, 83);
 INSERT INTO public.players VALUES (69, 'user_1727959573912', 5, 68);
+INSERT INTO public.players VALUES (82, 'user_1727961288215', 2, 156);
 INSERT INTO public.players VALUES (72, 'user_1727959617049', 2, 205);
+INSERT INTO public.players VALUES (81, 'user_1727961288216', 5, 7);
 INSERT INTO public.players VALUES (71, 'user_1727959617050', 5, 62);
+INSERT INTO public.players VALUES (84, 'user_1727961350563', 2, 151);
+INSERT INTO public.players VALUES (83, 'user_1727961350564', 5, 49);
+INSERT INTO public.players VALUES (86, 'user_1727961433490', 2, 593);
+INSERT INTO public.players VALUES (85, 'user_1727961433491', 5, 72);
+INSERT INTO public.players VALUES (88, 'user_1727961437715', 2, 679);
+INSERT INTO public.players VALUES (87, 'user_1727961437716', 5, 23);
+INSERT INTO public.players VALUES (24, 'David', 4, 6);
 
 
 --
 -- Name: players_player_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.players_player_id_seq', 80, true);
+SELECT pg_catalog.setval('public.players_player_id_seq', 92, true);
 
 
 --
